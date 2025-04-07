@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: cube
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":121.2558,"y":152.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"6cfda2e5-d484-4553-9675-02c21caf147b","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":true,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"73ce0dfc-63ea-4a69-a08a-55a6008e1ff4","$version":"A","$type":"Unity.VisualScripting.Update","$id":"11"},{"defaultValues":{"seconds":{"$content":45.0,"$type":"System.Single"},"unscaledTime":{"$content":false,"$type":"System.Boolean"}},"position":{"x":6.0,"y":62.0},"guid":"888bf2b9-3fd6-4250-805e-75c141ef4cd4","$version":"A","$type":"Unity.VisualScripting.WaitForSecondsUnit","$id":"13"},{"chainable":false,"member":{"name":"useGravity","parameterTypes":null,"targetType":"UnityEngine.Rigidbody","targetTypeName":"UnityEngine.Rigidbody","$version":"A"},"defaultValues":{"target":null,"input":{"$content":true,"$type":"System.Boolean"}},"position":{"x":275.0,"y":71.0},"guid":"dcaf117c-fd6a-47a1-b89b-1ee839044682","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"15"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"bb8e42bf-72a9-42f7-b8dc-0ef910f58af4","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"exit","destinationUnit":{"$ref":"15"},"destinationKey":"assign","guid":"14c6e6a3-021f-4953-a6e1-aa1db0f18c30","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
